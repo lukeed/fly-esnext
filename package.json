@@ -1,6 +1,6 @@
 {
   "name": "fly-esnext",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Allow for ES6 and ES7 support throughout a Fly environment.",
   "main": "index.js",
   "license": "MIT",
