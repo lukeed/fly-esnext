@@ -9,7 +9,7 @@
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
 [![][dl-badge]][npm-pkg-link]
-[![][travis-badge]][travis-link]
+<!-- [![][travis-badge]][travis-link] -->
 
 ## Install
 
