@@ -1,0 +1,14 @@
+{
+  "name": "fly-esnext",
+  "version": "0.0.0",
+  "description": "Allow for ES6 and ES7 support throughout your Fly environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.7.2"
+  }
+}
