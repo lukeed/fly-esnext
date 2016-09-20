@@ -1,1 +1,7 @@
-require('babel/register');
+require('babel-register')({
+  presets: [ 'latest' ],
+  plugins: [
+    "transform-runtime"
+  ],
+  babelrc: false
+});
