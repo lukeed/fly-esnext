@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"No tests needed\" && exit 0"
+    "test": "xo"
   },
   "author": {
     "name": "Luke Edwards",
@@ -14,5 +14,8 @@
   },
   "dependencies": {
     "babel": "^5.8.0"
+  },
+  "devDependencies": {
+    "xo": "*"
   }
 }
