@@ -1,7 +1,7 @@
 {
   "name": "fly-esnext",
   "version": "1.0.1",
-  "description": "Allow for ES6 and ES7 support throughout a Fly environment.",
+  "description": "Allows flyfiles to be written with new-age ES6 or ES7 syntax.",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "https://lukeed.com"
   },
   "dependencies": {
-    "babel": "^5.8.0"
+    "require-like": "^0.1.2"
   },
   "devDependencies": {
     "xo": "*"
