@@ -1,6 +1,7 @@
 'use strict';
 
 const Script = require('vm').Script;
+const dirname = require('path').dirname;
 const req = require('require-like');
 
 const fn = 'function*';
@@ -12,6 +13,9 @@ module.exports = function (file, data) {
 	box.module = {exports: exports};
 	box.exports = exports;
 	box.require = req(file);
+
+	box.__dirname = dirname(file);
+	box.__filename = file;
 
 	const scr = new Script(
 		data.replace(new RegExp('await', 'gi'), 'yield')
