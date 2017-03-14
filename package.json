@@ -1,6 +1,6 @@
 {
   "name": "fly-esnext",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Allows flyfiles to be written with new-age ES6 or ES7 syntax.",
   "main": "index.js",
   "license": "MIT",
